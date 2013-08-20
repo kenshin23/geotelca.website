@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+    <head>
+        <meta charset="utf-8">
+        <title>Geolog&iacute;a y Telecomunicaciones, C.A.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link href="http://geotelca.com/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="http://geotelca.com/assets/css/bootstrap.neg-offset.css" rel="stylesheet">
+        <style type="text/css">
+
+            /* Sticky footer styles
+            -------------------------------------------------- */
+
+            html,
+            body {
+                height: 100%;
+                /* The html and body elements cannot have any padding or margin. */
+            }
+
+            /* Wrapper for page content to push down footer */
+            #wrap {
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                /* Negative indent footer by it's height */
+                margin: 0 auto -70px;
+            }
+
+            /* Set the fixed height of the footer here */
+            #push,
+            #footer {
+                height: 70px;
+            }
+            #footer {
+                background-color: #1b1b1b;
+            }
+
+            /* Lastly, apply responsive CSS fixes as necessary */
+            @media (max-width: 767px) {
+                #footer {
+                    margin-left: -20px;
+                    margin-right: -20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+
+            /* Custom page CSS
+            -------------------------------------------------- */
+            /* Not required for template or sticky footer method. */
+
+            #wrap > .container {
+                padding-top: 60px;
+            }
+            .container .credit {
+                margin: 20px 0;
+            }
+
+            code {
+                font-size: 80%;
+            }
+
+            .content {
+                font-family: "Century Gothic", Arial, Helvetica;
+                min-height: 100%;
+                height: 100%;
+                margin-top: 60px;
+            }
+
+            [class^="decorative-"], [class*=" decorative-"] {
+                float: left;
+                min-height: 10px;
+                width: 25%;
+            } 
+            .decorative-lightblue {
+                background-color: #617EB9;
+            }
+            .decorative-purple {
+                background-color: #501D50;
+            }
+            .decorative-orange {
+                background-color: #D24619;
+            }
+            .decorative-lightorange {
+                background-color: #DD9A33;
+            }
+
+            .logo {
+                background-image: url('http://geotelca.com/assets/img/examples/geotelca-logo-226x136.png');
+                /*
+                -moz-background-size: cover;
+                background-size: cover;
+                */
+                background-repeat: no-repeat;
+                background-position: left center;
+                height: 136px;
+            }
+
+            [class^="separator-"], [class*=" separator-"] {
+                border-width: 1px;
+                border-style: solid;
+                margin-left: -20px;
+                margin-right: 20px;
+            }
+            .separator-lightblue {
+                border-color: #617EB9;
+            }
+            .separator-purple {
+                border-color: #501D50;
+            }
+            .separator-orange {
+                border-color: #D24619;
+            }
+            .separator-lightorange {
+                border-color: #DD9A33;
+            }
+
+            .title {
+                text-shadow: 0 2px 2px rgba(0,0,0,.5);
+                font-weight: bold;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .sidebar-intro {
+                line-height: 1em;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .emphasis-red {
+                display: inline-block;
+                width: 140px;
+                color: red;
+            }
+
+            .sidebar-text-box {
+                text-align: justify;
+                margin-bottom: 0;
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            .caption {
+                font-size: 20px;
+                text-indent: 10px;
+                font-weight: bold;
+            }
+
+            .address, .e-mail {
+                font-size: 18px; 
+                font-weight: bold;
+            }
+
+            .address {
+                padding-top: 10%;
+            }
+
+            address {
+                margin-bottom: 0;
+            }
+
+            .social-links {
+            }
+
+            .social-links > a {
+                display: inline-block;
+                width: 64px;
+                height: 64px;
+                text-indent: -99999px;
+                -webkit-transition: all 0.6s ease;
+                -moz-transition:    all 0.6s ease;
+                -o-transition:      all 0.6s ease;
+                background: url(http://geotelca.com/img/sprites.png) no-repeat;
+            }
+
+            .e-mail {
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            .e-mail a:link, 
+            .e-mail a:visited,
+            .e-mail a:hover, 
+            .e-mail a:focus,
+            .e-mail a:active {
+                color: black;
+                text-decoration: none;
+                font-size: 24px;
+            }
+
+            /* Flexible iFrame */
+            .Flexible-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                padding-top: 30px;
+                height: 0;
+                overflow: hidden;
+            }
+
+            .Flexible-container iframe,   
+            .Flexible-container object,  
+            .Flexible-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <link href="http://geotelca.com/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="http://geotelca.com/css/sprites.css" rel="stylesheet">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://geotelca.com/assets/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://geotelca.com/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://geotelca.com/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://geotelca.com/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="http://geotelca.com/assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="http://geotelca.com/assets/ico/favicon.png">
+
+        <!-- Google Analytics code -->
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-12059126-1']);
+          _gaq.push(['_setDomainName', 'geotelca.com']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+
+    <body>
+
+
+        <!-- Part 1: Wrap all page content here -->
+        <div id="wrap">
+
+            <!-- Fixed navbar -->
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="brand" href="index.html">Geolog&iacute;a y Telecomunicaciones, C.A.</a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li><a href="http://geotelca.com/">Inicio</a></li>
+                                <li class="active"><a href="#">Contacto</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </div>
+
+                <div>
+                    <div class="decorative-lightblue"></div>
+                    <div class="decorative-purple"></div>
+                    <div class="decorative-orange"></div>
+                    <div class="decorative-lightorange"></div>
+                </div>
+            </div>
+
+            <!-- Begin page content -->
+            <div class="container-fluid">
+                <div class="row-fluid content clearfix">
+
+                    <div class="span5">
+                        <div class="row-fluid">
+                            <div class="span5">
+                                <div class="span12 logo"></div>
+                                <div class="sidebar-intro">
+                                    Construcci&oacute;n, Adaptaci&oacute;n,<br/>
+                                    Adecuaci&oacute;n y Remodelaci&oacute;n<br/>de
+                                    <span class="emphasis-red">
+                                        locales<br>comerciales<br>empresariales
+                                    </span>
+                                </div>
+                            </div>    
+                            <div class="span7">
+                                <!-- Responsive iFrame -->
+                                <div class="Flexible-container">
+                                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;ll=8.561755,-71.204721&amp;spn=0.004716,0.006571&amp;t=m&amp;z=18&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/?ie=UTF8&amp;ll=8.561755,-71.204721&amp;spn=0.004716,0.006571&amp;t=m&amp;z=18&amp;source=embed" style="color:#0000FF;text-align:left">Ver mapa m&aacute;s grande</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="contact-wrapper well">
+                                <form>
+                                    <div class="control-group">
+                                        <label class="control-label" for="inputName"><i class="icon-user"></i> Nombre</label>
+                                        <div class="controls controls-row">
+                                            <input type="text" class="span12 input-xlarge " id="inputName" placeholder="Su nombre completo">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="inputEmail"><i class="icon-envelope"></i> Correo electr&oacute;nico</label>
+                                        <div class="controls">
+                                            <input type="text" class="span12 input-xlarge" id="inputEmail" placeholder="nombre@sudominio.com">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="inputEmail"><i class="icon-question-sign"></i> Asunto</label>
+                                        <div class="controls">
+                                            <input type="text" class="span12 input-xlarge" id="inputSubject" placeholder="Asunto de su mensaje">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="inputEmail"><i class="icon-pencil"></i> Mensaje</label>
+                                        <div class="controls">
+                                            <textarea rows="6" class="span12 input-xlarge" placeholder="Haganos llegar sus comentarios, sugerencias, consultas, etc."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+                                        </div>
+                                        <br class="clear">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid span12">
+                            <img class="span8 offset2" src="http://geotelca.com/assets/img/examples/flyer_back.png">
+                        </div>
+                        <div class="row-fluid">
+                            <div class="row-fluid span12 address">
+                                <address>
+                                    Zona Industrial Los Curos, Calle 1, Edif. Geotelca No. A-8, Mérida, Edo. Mérida
+                                </address>
+                            </div>
+                            <div class="row-fluid e-mail">
+                                <div class="span4 offset6">
+                                    <a href="mailto:direccion@geotelca.com">direccion@geotelca.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="span1">
+                        <div class="social-links text-center">
+                            <a href="http://www.twitter.com/geotelca" title="Twitter" class="twitter" target="_blank">Twitter</a>
+                            <a href="http://www.facebook.com/geotelca" title="Facebook" class="facebook" target="_blank">Facebook</a>
+                            <a href="http://www.flickr.com/photos/geotelca" title="Flickr" class="flickr" target="_blank">Flickr</a>
+                            <a href="http://ve.linkedin.com/pub/direcciòn-geotelca/70/1a4/33" title="LinkedIn" class="linkedin" target="_blank">LinkedIn</a>
+                            <a href="skype:gaspar.cammarata" title="Skype" class="skype" target="_blank">Skype</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--/.container-fluid-->
+            <div id="push"></div>
+        </div><!--/#wrap-->
+
+        <div id="footer">
+            <div>
+                <div class="decorative-lightblue"></div>
+                <div class="decorative-purple"></div>
+                <div class="decorative-orange"></div>
+                <div class="decorative-lightorange"></div>
+            </div>
+            <div class="container">
+                <p class="muted credit">Dise&ntilde;ado por <a href="http://twitter.com/kenshin23">@kenshin23</a></p>
+            </div>
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://geotelca.com/assets/js/jquery.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-transition.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-alert.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-modal.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-dropdown.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-scrollspy.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-tab.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-tooltip.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-popover.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-button.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-collapse.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-carousel.js"></script>
+        <script src="http://geotelca.com/assets/js/bootstrap-typeahead.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("input#submit").click(function(){
+                    $.ajax({
+                        type: "POST",
+                        url: "process.php", //process to mail
+                        data: $('form.contact').serialize(),
+                        success: function(msg){
+                            $("#thanks").html(msg) //hide button and show thank you
+                            $("#form-content").modal('hide'); //hide popup 
+                        },
+                        error: function(){
+                            alert("failure");
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

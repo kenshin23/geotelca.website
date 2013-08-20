@@ -1,0 +1,95 @@
+.social-links a.twitter{
+	background-position: -64px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.twitter{
+	background-position: 0 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.skype{
+	background-position: -195px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.skype{
+	background-position: -130px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.rss{
+	background-position: -327px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.rss{
+	background-position: -261px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.linkedin{
+	background-position: -459px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.linkedin{
+	background-position: -393px 0;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.flickr{
+	background-position: -65px -66px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.flickr{
+	background-position: 0 -66px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.facebook{
+	background-position: -196px -65px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.facebook{
+	background-position: -130px -65px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.digg{
+	background-position: -328px -64px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.digg{
+	background-position: -261px -64px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a.delicious{
+	background-position: -459px -66px ;
+	width: 64px;
+	height: 63px;
+}
+
+.social-links a:hover.delicious{
+	background-position: -394px -64px ;
+	width: 64px;
+	height: 63px;
+}
